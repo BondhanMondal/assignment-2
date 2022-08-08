@@ -63,8 +63,7 @@ img{
     margin-bottom: 30px;
 }
 .banner-text-ellipsis {
-    width: 316px;
-    height: 48px;
+    width: 100%;
     font-size: 16px;
     font-weight: 400;
     color: #FFFFFF;
@@ -110,7 +109,18 @@ img{
 
 @media only screen and (min-width:577px) and (max-width:768px) {
     .banner{
-
+        width: 100%;
+        height: 400px;
+    }
+    .banner-title{
+        font-size: 40px;
+        margin-top: 31px;
+    }
+    .banner-text{
+        display: none;
+    }
+    .banner-text-ellipsis{
+        display: block;
     }
     
 }
