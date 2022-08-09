@@ -227,6 +227,31 @@ img{
         width: 100%;
         height: 100%;
     }
+
+    .middle-part{
+        display: flex;
+        flex-direction: column;
+    }
+    .middle-left {
+        background-color: #553D67;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .normal-anchor {
+        width: 183px;
+        height: 60px;
+    }
+
+    .highlighted-anchor {
+        width: 180px;
+        height: 60px;
+
+    }
+    .middle-right{
+        grid-template-columns: repeat(2, 1fr);
+    }
     
 }
 
