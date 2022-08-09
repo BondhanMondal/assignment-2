@@ -272,14 +272,14 @@ img{
 }
 
 .clickable {
-    width: 10%;
+    width: 20%;
     display: flex;
     justify-content: space-between;
 }
 
 .clickable a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 50px;
     font-weight: 500;
     color: #B9B9B9;
 }
@@ -344,6 +344,34 @@ img{
     }
     .view-button{
         display: block;
+    }
+
+    /* footer  */
+    /* .anchor {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    } */
+    .footer-anchor-container{
+        margin-bottom: 25px;
+    }
+
+    .anchor {
+        width: 70%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .anchor a {
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+    .clickable{
+        width: 40%;
+    }
+    .clickable a{
+        font-size: 40px;
     }
     
 }
