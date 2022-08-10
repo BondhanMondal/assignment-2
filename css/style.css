@@ -459,5 +459,35 @@ img{
         width: 100%;
     }
 
+    /* footer  */
+    .footer-top{
+        height: 10%;
+    }
+    .footer-top h1 {
+        font-size: 22px;
+        padding-top: 20px;
+    }
+    .footer-mid{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .footer-anchor-container{
+        margin-bottom: 20px;
+    }
+    .anchor{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-anchor-container a{
+        margin-bottom: 20px;
+    }
+    .clickable{
+        width: 80%;
+        justify-content: space-around;
+    }
+
+    
+
     
 }
