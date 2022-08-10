@@ -21,8 +21,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
-    /* margin-top: 50px;
-    margin-bottom: 80px; */
 }
 img{
     max-width: 100%;
@@ -297,6 +295,7 @@ img{
 ------------------------------------------------------------------------------------------------ */
 
 @media only screen and (min-width:577px) and (max-width:768px) {
+    /* ----------------------------   banner  -------------------------*/
     .banner{
         width: 100%;
         height: 400px;
@@ -318,6 +317,7 @@ img{
         width: 100%;
         height: 100%;
     }
+        /* ----------------------------   middle part  -------------------------*/
 
     .middle-part{
         display: flex;
@@ -350,13 +350,8 @@ img{
         display: block;
     }
 
-    /* footer  */
-    /* .anchor {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    } */
+    /* ----------------------------   footer  -------------------------*/
+
     .footer-anchor-container{
         margin-bottom: 25px;
     }
@@ -388,6 +383,7 @@ img{
 ------------------------------------------------------------------------------------------------ */
 
 @media only screen and (max-width:576px) {
+    /* ----------------------------   banner  -------------------------*/
 
    .banner{
     width: 100%;
@@ -437,7 +433,7 @@ img{
     height: 230px;
     width: 233px;
    }
-   /* middle part  */
+        /* ----------------------------   middle part  -------------------------*/
     .middle-part {
         display: flex;
         flex-direction: column;
@@ -463,7 +459,7 @@ img{
         width: 100%;
     }
 
-    /* footer  */
+        /* ----------------------------   footer  -------------------------*/
     .footer-top{
         height: 10%;
     }

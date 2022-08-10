@@ -21,8 +21,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
-    /* margin-top: 50px;
-    margin-bottom: 80px; */
 }
 
 img {
@@ -159,50 +157,59 @@ img {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 16px;
 }
-/* -------------------------------------- */
-.match{
-    border: 1px solid #161616;
-    border-radius: 10px;
-    height: 242px;
-    width: 250px;
-}
-.flag-container{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    margin-top: 40px;
-    margin-bottom: 15px;
-}
-.flag-container img{
-    width: 92px;
-    height: 56px;
-}
-.flag-container span{
-    font-size: 16px;
-    font-weight: 700;
-    color: #161616;
-    margin: 0 10px;
-    margin-bottom: 20px;
-}
-.info-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
+.blog {
+    border: 1px solid #161616;
+    /* width: 312px;
+    height: 362px; */
+    border-radius: 10px;
 }
-.match-title{
-    font-size: 20px;
+
+.transfer {
+    width: 100px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #161616;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    padding: 4px 17px;
+    margin-left: 20px;
+}
+
+.blog-text {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
     font-weight: 600;
     color: #161616;
-    margin-bottom: 10px;
+    padding-right: 20px;
 }
-.match-schedule{
-    font-size: 16px;
-    font-weight: 400;
-    color: #4d4d82;
-    margin-bottom: 40px;
+
+.blog-info {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 26px;
+    padding-left: 20px;
+    margin-bottom: 15px;
 }
+
+.fa-clock {
+    color: rgba(22, 22, 22, 0.7);
+}
+
+.blog-info span {
+    color: rgba(22, 22, 22, 0.7);
+    margin-left: 3px;
+}
+
+.fa-comment-dots {
+    color: rgba(22, 22, 22, 0.7);
+}
+
 .button-container {
     display: flex;
     width: 100%;
@@ -210,6 +217,7 @@ img {
 }
 
 .view-button {
+    border: 0;
     height: 47px;
     width: 131px;
     margin-top: 30px;
@@ -312,6 +320,8 @@ img {
 ------------------------------------------------------------------------------------------------ */
 
 @media only screen and (min-width:577px) and (max-width:768px) {
+
+    /* ----------------------------   banner  -------------------------*/
     .banner {
         width: 100%;
         height: 400px;
@@ -337,7 +347,8 @@ img {
         width: 100%;
         height: 100%;
     }
-    /* middle part  */
+
+    /* ----------------------------   middle part  -------------------------*/
 
     .middle-part {
         display: flex;
@@ -367,11 +378,16 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .blog-image {
+        width: 100%;
+    }
+
     .view-button {
         display: block;
     }
 
-    /* footer  */
+    /* ----------------------------   footer  -------------------------*/
+
     .footer-anchor-container {
         margin-bottom: 25px;
     }
@@ -394,9 +410,6 @@ img {
     .clickable a {
         font-size: 40px;
     }
-    .middle-part{
-        display: block;
-    }
 
 }
 
@@ -408,6 +421,7 @@ img {
 ------------------------------------------------------------------------------------------------ */
 
 @media only screen and (max-width:576px) {
+    /* ----------------------------   banner  -------------------------*/
 
     .banner {
         width: 100%;
@@ -463,7 +477,7 @@ img {
         width: 233px;
     }
 
-    /* middle part  */
+    /* ----------------------------   middle part  -------------------------*/
     .middle-part {
         display: flex;
         flex-direction: column;
@@ -478,8 +492,22 @@ img {
         margin-bottom: 25px;
     }
 
+    .middle-right {
+        grid-template-columns: 1fr;
+        justify-items: center;
 
-    /* footer  */
+    }
+
+    .blog {
+        width: 300px;
+        height: 350px;
+    }
+
+    .blog-image {
+        width: 100%;
+    }
+
+    /* ----------------------------   footer  -------------------------*/
     .footer-top {
         height: 10%;
     }
