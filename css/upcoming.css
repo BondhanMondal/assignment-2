@@ -164,6 +164,7 @@ img {
     border: 1px solid #161616;
     border-radius: 10px;
     height: 242px;
+    width: 250px;
 }
 .flag-container{
     display: flex;
@@ -392,6 +393,9 @@ img {
 
     .clickable a {
         font-size: 40px;
+    }
+    .middle-part{
+        display: block;
     }
 
 }
