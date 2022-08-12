@@ -87,9 +87,14 @@ img{
     align-items: flex-end;
 }
 .banner-img{
+    position: relative;
     display: block;
     width: 100%;
     height: 92%;
+    transition: transform 1s ease-in;
+}
+.banner-img:hover{
+    transform: scale(.5) rotate(360deg);
 }
 
 
